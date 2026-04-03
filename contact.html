@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mangaldeep Traders</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Link to a CSS file if exists -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Company: Mangaldeep Traders</p>
+    </header>
+    <main>
+        <h2>Get in Touch</h2>
+        <form action="/submit-form" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mangaldeep Traders</p>
+        <p>Address: [Your Company Address]</p>
+        <p>Phone: [Your Company Phone Number]</p>
+    </footer>
+</body>
+</html>
