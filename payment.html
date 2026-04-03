@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+</head>
+<body>
+    <h1>Checkout Details</h1>
+    <form action="/submit-payment" method="POST">
+        <label for="card-number">Card Number:</label><br>
+        <input type="text" id="card-number" name="card-number" required><br><br>
+        <label for="expiration">Expiration Date:</label><br>
+        <input type="text" id="expiration" name="expiration" placeholder="MM/YY" required><br><br>
+        <label for="cvc">CVC:</label><br>
+        <input type="text" id="cvc" name="cvc" required><br><br>
+        <label for="amount">Amount:</label><br>
+        <input type="text" id="amount" name="amount" required><br><br>
+        <input type="submit" value="Pay Now">
+    </form>
+</body>
+</html>
